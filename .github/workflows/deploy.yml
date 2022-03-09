@@ -1,4 +1,4 @@
-name: 'Homework-front-pipeline'
+name: 'Portfolio-pipeline'
 
 on:
   push:
