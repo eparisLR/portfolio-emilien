@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   console.log(collection)
   return (
-    <div className="App">
+    <div className="App" data-testid="app">
     </div>
   );
 }
