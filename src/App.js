@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import collection from 'easter-egg-collection';
 import './App.css';
 
 function App() {
