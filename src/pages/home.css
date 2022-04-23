@@ -1,0 +1,26 @@
+/*
+BACKGROUND
+ */
+.background--home {
+    background: linear-gradient(90deg, #F5E072, #FFBC00, #FF9999);
+    background-size: 300% 300%;
+    animation: gradient 4s alternate infinite;
+    height: 100vh;
+    width: 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+/*
+WELCOME
+ */
+
+.welcome {
+}
