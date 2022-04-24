@@ -7,32 +7,41 @@ HEADER
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 2vh;
+}
+
+.header li {
+    cursor: pointer;
 }
 
 .header--options-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    position: relative;
+}
+
+.header--options-container:hover .header--options-list {
+    display: block;
 }
 
 .header--options-list {
-    display: flex;
-    justify-content: space-around;
+    display: none;
     list-style: none;
     width: 15%;
+    position: absolute;
 }
 
-.header--lang-list {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    width: 10%;
+.header--options-list li {
+    display: block;
+    width: 100%;
 }
 
 .header--links-list {
     display: flex;
     justify-content: space-around;
     list-style: none;
+}
+
+.header--links-list {
+    width: 100%;
 }
 /*
 FOOTER
@@ -53,7 +62,8 @@ UTILS
 }
 
 .elevator {
-    font-size: 12rem;
+    font-size: 3rem !important;
+    cursor: pointer;
     position: fixed;
     bottom: 1vh;
     right: 1vw;

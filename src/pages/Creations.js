@@ -9,7 +9,7 @@ const Creations = () => {
         }
     ];
     return(
-        <div className="container--centered-content">
+        <div className="container--centered-content min-height-vh">
             <ImageList variant="masonry" cols={3} gap={10}>
                 { creationsList.map((item) => (
                     <ImageListItem key={item?.url}>
